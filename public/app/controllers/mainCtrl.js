@@ -9,7 +9,7 @@ angular.module('mainController', [])
             // display Map 
             map = $('#map');
             var myMap;
-
+            var coords;
             function getmyposition() {
                 // availability
                 if (navigator.geolocation) {
